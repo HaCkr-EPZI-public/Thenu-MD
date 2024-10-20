@@ -4,7 +4,7 @@ const { cmd } = require('../command');
 cmd({
     pattern: "gpass",
     desc: "Generate a strong password.",
-    category: "tools",
+    category: "other",
     react: "🔐",
     filename: __filename
 },
@@ -12,7 +12,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         const length = args[0] ? parseInt(args[0]) : 12; // Default length is 12 if not provided
         if (isNaN(length) || length < 8) {
-            return reply('ρℓєαѕє ρяσνι∂є α ναℓι∂ ℓєηgтн ƒσя тнє ραѕѕωσя∂ (мιηιмυм 8 ¢нαяα¢тєяѕ).');
+            return reply('Please provide a valid length for the password (minimum 8 characters).');
         }
 
         const generatePassword = (len) => {
@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         };
 
         const password = generatePassword(length);
-        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n> *Thenu-ᴍᴅ ʙʏ THENU ᴛᴇᴄʜッ*`;
+        const message = `🔐 *Your Strong Password* 🔐\n\nPlease find your generated password below:\n\n> Asᴍᴏᴅᴇᴜs Eᴘᴢɪ`;
 
         // Send initial notification message
         await conn.sendMessage(from, { text: message }, { quoted: mek });
@@ -35,6 +35,6 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         await conn.sendMessage(from, { text: password }, { quoted: mek });
     } catch (e) {
         console.log(e);
-        reply(`❌ єяяσя gєηєяαтιηg ραѕѕωσя∂: ${e.message}`);
+        reply(`❌ Error generating password: ${e.message}`);
     }
 });
