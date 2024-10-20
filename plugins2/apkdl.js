@@ -15,7 +15,7 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         if (!q && !q.startsWith("https://")) return reply("𝚊𝚙𝚔 𝚗𝚘𝚝 𝚏𝚘𝚞𝚗𝚍 ‼️")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/apkdl?url=${q}`)
-        reply("*Thenu-MD*\n*ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...*")
+        reply("> *Asᴍᴏᴅᴇᴜs Eᴘᴢɪ*\n*ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ...*")
         await conn.sendMessage(from, { document: { url: data.data.link_1 }, fileName: data.data.name, mimetype: data.data.file_type, caption: cap }, { quoted: mek })                                                                                                                 
     } catch (e) {
         console.log(e)
