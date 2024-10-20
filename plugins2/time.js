@@ -8,7 +8,7 @@ const axios = require('axios');
 //---------------------------------------------------------------------------
 cmd({
             pattern: "live",
-            desc: "Show Live Time Of Pakistan",
+            desc: "Show Live Time Of Sri Lanka",
             category: "fun",
 	          filename: __filename,
             use: '<group link.>',
@@ -36,9 +36,9 @@ const q = {
            "itemCount" : suhail[Math.floor(8*Math.random())],
            "status": 1,
            "surface" : 1,
-           "message": `❏ ${Config.botname} ➬ Whatsapp Bot BY Suhail SER`,
+           "message": `❏ ${Config.botname} ➬ ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ`,
            "orderTitle": "alive",
-           "sellerJid": '923184474176@s.whatsapp.net' 
+           "sellerJid": '94759554531@s.whatsapp.net' 
         }
       }
 }
