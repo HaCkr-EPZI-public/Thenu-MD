@@ -16,7 +16,7 @@ let status = `┌────────────────────
 ├ ⏰ Uptime:-  ${runtime(process.uptime())}
 ├ 📟 Ram usage:-  ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ├ ⚙️ Platform:-  ${os.hostname()}
-├ 👨‍💻 Owners:- Thenula Panapiti
+├ 👨‍💻 Owners:- Asᴍᴏᴅᴇᴜs Eᴘᴢɪ
 ├ 📢 Prefix:-  ${config.PREFIX}
 ├ 🚀 CPU Speed: ${cpuInfo.speed} GHz
 ├ ⚙️ CPU Brand:* ${cpuInfo.brand}
@@ -24,7 +24,7 @@ let status = `┌────────────────────
 ├ 📅 Date: ${date}
 ├ 🕰️ Time: ${time} 
 ├ 🌍 Server Time Zone: ${timezone}\n${sensitiveData.systemosrq}
-├ 🧬 Version:- 1.0.0
+├ 🧬 Version:- 1.2.0
 └───────────────────── ` 
   return reply(`${status}`)
   
