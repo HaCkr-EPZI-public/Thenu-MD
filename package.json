@@ -1,12 +1,12 @@
 {
-  "name": "Thenu-MD",
-  "version": "1.0.0",
-  "description": "A Thenu-MD WhatsApp bot created using Node.js📡",
+  "name": "QueenD",
+  "version": "1.2.0",
+  "description": "A Queen D WhatsApp bot created using Node.js📡",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Thenu-MD",
-    "stop": "pm2 stop Thenu-MD",
-    "restart": "pm2 restart Thenu-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name wabot",
+    "stop": "pm2 stop wabot",
+    "restart": "pm2 restart wabot"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
