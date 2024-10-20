@@ -25,7 +25,7 @@ async (conn, mek, m, { from, reply }) => {
 
 ➣ 🔗 ${article.url}
 
-  > THENU ᴍᴅ ɴᴇᴡꜱ ᴡᴇʙ
+  > Queen D News
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
