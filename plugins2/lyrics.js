@@ -27,7 +27,7 @@ try{
 if(!q) return reply(tmsg)
 const result = await fetchJson(`https://some-random-api.com/lyrics?title=${text}`)
 if(result.lyrics) reply(`
-[🧚THENU- ＭＤ 🧚]
+[🧚Queen D🧚]
 
    *LYRICS SEARCH*
    
