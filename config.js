@@ -6,11 +6,11 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "jNcFiTwZ#vUlZyyhB92QiI_1X4_xOL5GlP6pATs_RhqH7KYK_AiE",
-MONGODB: process.env.MONGODB || "mongodb://mongo:ugUHcTyXvgPmrGpmWtrCwrrWoUSQxDbZ@autorack.proxy.rlwy.net:11616",
+MONGODB: process.env.MONGODB || "mongodb+srv://epzi:e1IX5RIPcfb0aT2t@epzi0.taajc.mongodb.net/",
 PREFIX: process.env.PREFIX || ".",
-BOT_NAME: process.env.BOT_NAME || "Thenu-MD",
-BOT_NUMBER: process.env.BOT_NUMBER || "94767096711",
-AUTO_AI: process.env.AUTO_AI || "false",
-LANG: process.env.LANG || "SI"
+BOT_NAME: process.env.BOT_NAME || "Queen D",
+BOT_NUMBER: process.env.BOT_NUMBER || "94759554531",
+AUTO_AI: process.env.AUTO_AI || "true",
+LANG: process.env.LANG || "EN"
 
 };
