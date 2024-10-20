@@ -20,7 +20,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 
 
-const ownerNumber = ['94767096711']
+const ownerNumber = ['94759554531']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -51,7 +51,7 @@ const config = await readEnv();
 const prefix = config.PREFIX
 
 //=========================================
-console.log("Connecting Thenu-MD bot 🧬...");
+console.log("Connecting Epzi V 1.2.0 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -79,11 +79,11 @@ require("./plugins2/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('Thenu-MD Bot connected to whatsapp ✅')
+console.log('Epzi V 1.2.0 Bot connected to whatsapp ✅')
 
-let up = `> *~_Thenu-MD-BOT connected successful ✅_~*\n\n> PREFIX: ${prefix}\n\n--------------------------------------------\n\n*─●●► 🫨Welcome THENU md whatsapp bot you can download video songs and various videos through this bot. THENU - md owner is THENULA PANAPITI.. It also gives you the ability to solve the new revolution in technology and technology problems and there is great potential here. This technology is also related to AI.*\n\n-------------------------------------------\n\n> ─●●► Always Be Happy..*\n\n*─●●► Dont use Bad commands.🤢*`;
+ let up = `Epzige Cudu Nona Connected To WhatsApp Successfully ✅\n\n*PREFIX:${prefix}*\n\n*Join Our Chat Group*\nhttps://chat.whatsapp.com/FUYcvrXn9zm6BHbFznMSpn\n\n\n*Epzi Mage Mn Epzige <3💗*\n\n> Created by Asmodeus Epzi\n\n\n> version 1.2.0`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/vLr3s62/9230af94-e390-4873-9502-33167e8a4b79.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/Pr4BfhZ/1500x1500.png` }, caption: up })
 
 }
 })
@@ -148,14 +148,14 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
             }
 
 //owner reacts===============================================================================
-if (senderNumber.includes("94767096711")){
+if (senderNumber.includes("94759554531")){
 if (isReact) return
-m.react("")
+m.react("🐱‍👤")
 }  
 
-if (senderNumber.includes("94757096717")){
+if (senderNumber.includes("94778883057")){
 if (isReact) return
-m.react("🌟")
+m.react("✔")
 } 
 //===========================================================================================
 //======================================WORK-type============================================
@@ -200,7 +200,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("Hey, Thenu-MD bot started✅");
+res.send("Hey, Queen D bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
