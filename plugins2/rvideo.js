@@ -36,7 +36,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         writer.on('finish', async () => {
             await conn.sendMessage(from, { text: '✅ *ʏᴏᴜʀ ᴠɪᴅᴇᴏ ʜᴀꜱ ꜱᴜᴄᴄꜱᴇꜱꜰᴜʟʟ ᴅᴏᴡɴʟᴏᴀᴛᴇᴅ!* ✅' }, { quoted: mek });
-            await conn.sendMessage(from, { video: { url: videoPath }, caption: `🎥 *ʀᴀɴᴅᴏᴍ ᴘᴇxᴇʟꜱ ᴠɪᴅᴇᴏ* 🎥\n\nTitle: ${videoTitle}\n> *©THENU-MD ʙʏ THENUX ᴛᴇᴄʜッ*` }, { quoted: mek });
+            await conn.sendMessage(from, { video: { url: videoPath }, caption: `🎥 *ʀᴀɴᴅᴏᴍ ᴘᴇxᴇʟꜱ ᴠɪᴅᴇᴏ* 🎥\n\nTitle: ${videoTitle}\n> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ *` }, { quoted: mek });
 
             // Clean up
             fs.unlinkSync(videoPath);
