@@ -30,7 +30,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 🌐 *Language*: ${targetLang.toUpperCase()}
 
-> ❯❯ THENU-MD ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ➣`;
+> ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ `;
 
         return reply(translationMessage);
     } catch (e) {
