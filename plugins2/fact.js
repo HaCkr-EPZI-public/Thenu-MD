@@ -1,1 +1,80 @@
-const _0x201eee=_0x1978;function _0x4002(){const _0x1b7b49=['\x0a\x0aIsn\x27t\x20that\x20interesting?\x20😄\x0a','fact','axios','49543iIZVAO','1189692zwjQWb','⚠️\x20αη\x20єяяσя\x20σ¢¢υяяє∂\x20ωнιℓє\x20ƒєт¢нιηg\x20α\x20ƒυη\x20ƒα¢т.\x20ρℓєαѕє\x20тяу\x20αgαιη\x20ℓαтєя.','684534iRKYXe','log','28FMJizU','get','https://uselessfacts.jsph.pl/random.json?language=en','361606GPpPTw','5RfJPts','1200552WbEVEH','3789vTwMQf','2848LMzeBW','🧠\x20Get\x20a\x20random\x20fun\x20fact','fun','\x0a👾\x20*ʀᴀɴᴅᴏᴍ\x20ꜰᴜɴ\x20ꜰᴀᴄᴛ*\x20👾\x0a\x0a','320530pONhCr'];_0x4002=function(){return _0x1b7b49;};return _0x4002();}function _0x1978(_0x23787a,_0x2859ff){const _0x40021c=_0x4002();return _0x1978=function(_0x197884,_0xa6f46b){_0x197884=_0x197884-0x1e2;let _0x4762fc=_0x40021c[_0x197884];return _0x4762fc;},_0x1978(_0x23787a,_0x2859ff);}(function(_0x3b5c3d,_0x41854c){const _0x26b488=_0x1978,_0x3b689f=_0x3b5c3d();while(!![]){try{const _0x320d5e=parseInt(_0x26b488(0x1ec))/0x1+-parseInt(_0x26b488(0x1f4))/0x2+parseInt(_0x26b488(0x1ed))/0x3+parseInt(_0x26b488(0x1e2))/0x4*(-parseInt(_0x26b488(0x1f5))/0x5)+parseInt(_0x26b488(0x1ef))/0x6*(parseInt(_0x26b488(0x1f1))/0x7)+parseInt(_0x26b488(0x1e4))/0x8*(-parseInt(_0x26b488(0x1e3))/0x9)+-parseInt(_0x26b488(0x1e8))/0xa;if(_0x320d5e===_0x41854c)break;else _0x3b689f['push'](_0x3b689f['shift']());}catch(_0x5be66d){_0x3b689f['push'](_0x3b689f['shift']());}}}(_0x4002,0x3a7e9));const axios=require(_0x201eee(0x1eb)),{cmd}=require('../command');cmd({'pattern':_0x201eee(0x1ea),'desc':_0x201eee(0x1e5),'react':'😝','category':_0x201eee(0x1e6),'filename':__filename},async(_0x1143d4,_0x4bef1a,_0x260f57,{from:_0x44562a,q:_0x42b1c7,reply:_0x142463})=>{const _0x2153ba=_0x201eee;try{const _0x4c94d7=_0x2153ba(0x1f3),_0x14690a=await axios[_0x2153ba(0x1f2)](_0x4c94d7),_0x3e6c82=_0x14690a['data']['text'],_0xb01876=_0x2153ba(0x1e7)+_0x3e6c82+_0x2153ba(0x1e9);return _0x142463(_0xb01876);}catch(_0x2693e9){return console[_0x2153ba(0x1f0)](_0x2693e9),_0x142463(_0x2153ba(0x1ee));}});
+const axios = require('axios');
+const { cmd, commands } = require('../command');
+
+cmd({
+    pattern: "animegirl",
+    desc: "Fetch a random anime girl image.",
+    category: "fun",
+    react: "👧",
+    filename: __filename
+},
+async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
+    try {
+        const apiUrl = `https://api.waifu.pics/sfw/waifu`;
+        const response = await axios.get(apiUrl);
+        const data = response.data;
+
+        await conn.sendMessage(from, { image: { url: data.url }, caption: '👧 *Random Anime Girl Image* 👧\n> *by Asᴍᴏᴅᴇᴜs Eᴘᴢɪ*' }, { quoted: mek });
+    } catch (e) {
+        console.log(e);
+        reply(`Error fetching anime girl image: ${e.message}`);
+    }
+});
+cmd({
+    pattern: "fact",
+    desc: "🧠 Get a random fun fact",
+    react: "🤓",
+    category: "fun",
+    filename: __filename
+},
+async (conn, mek, m, { from, q, reply }) => {
+    try {
+        const url = 'https://uselessfacts.jsph.pl/random.json?language=en';  // API for random facts
+        const response = await axios.get(url);
+        const fact = response.data.text;
+
+        const funFact = `
+🧠 *Random Fun Fact* 🧠
+
+${fact}
+
+Isn't that interesting? 😄
+`;
+
+        return reply(funFact);
+    } catch (e) {
+        console.log(e);
+        return reply("⚠️ An error occurred while fetching a fun fact. Please try again later.");
+    }
+});
+
+
+cmd({
+    pattern: "joke",
+    desc: "😂 Get a random joke",
+    react: "🤣",
+    category: "fun",
+    filename: __filename
+},
+async (conn, mek, m, { from, q, reply }) => {
+    try {
+        const url = 'https://official-joke-api.appspot.com/random_joke';  // API for random jokes
+        const response = await axios.get(url);
+        const joke = response.data;
+
+        const jokeMessage = `
+😂 *Here's a random joke for you!* 😂
+
+*${joke.setup}*
+
+${joke.punchline} 😄
+
+> *by Asmodeus Epzi*
+`;
+
+        return reply(jokeMessage);
+    } catch (e) {
+        console.log(e);
+        return reply("⚠️ Couldn't fetch a joke right now. Please try again later.");
+    }
+});
