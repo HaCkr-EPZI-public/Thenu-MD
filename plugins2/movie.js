@@ -43,7 +43,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ⭐ *IMDB Rating:* ${data.imdbRating}
 🗳️ *IMDB Votes:* ${data.imdbVotes}
 
-> ❯❯ THENU - MD ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ➣`;
+> Queen D WhatsApp Bot`;
 
         // Define the image URL
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
@@ -51,7 +51,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the movie information along with the poster image
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> > ❯❯ ꜱʜᴀᴅᴏᴡ-ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ➣`
+            caption: `${movieInfo}\n> > ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ`
         }, { quoted: mek });
     } catch (e) {
         console.log(e);
