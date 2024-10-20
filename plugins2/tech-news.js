@@ -25,7 +25,7 @@ const response = await axios.get(`https://newsapi.org/v2/top-headlines?sources=t
 
 ➣ 🔗 ${article.url}
 
-  > THENU ᴍᴅ ɴᴇᴡꜱ ᴡᴇʙ
+  > Queen D Tech News
             `;
 
             console.log('Article URL:', article.urlToImage); // Log image URL for debugging
