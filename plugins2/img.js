@@ -3,7 +3,7 @@ const axios = require('axios');
 const { Buffer } = require('buffer');
 
 const GOOGLE_API_KEY = 'AIzaSyDebFT-uY_f82_An6bnE9WvVcgVbzwDKgU'; // Replace with your Google API key
-const GOOGLE_CX = '45b94c5cef39940d1'; // Replace with your Google Custom Search Engine ID
+const GOOGLE_CX = '5144d8a7cbaa249c1'; // Replace with your Google Custom Search Engine ID
 
 cmd({
     pattern: "img",
@@ -41,7 +41,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
 👨‍💻 *Image ${i + 1} from your search!* 👨‍💻
         *Enjoy these images! 📸*
-> ❯❯  THENU-ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ➣
+> ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ 
 `
 }, { quoted: mek });
 }
