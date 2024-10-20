@@ -42,7 +42,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 📌 *Pressure*: ${data.main.pressure} hPa
 
-> *ᴘᴏᴡᴇʀᴅ ʙʏ THENU-ᴍᴅ ➤*
+> *ᴘᴏᴡᴇʀᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ*
 `;
 
         return reply(weather);
