@@ -3,7 +3,7 @@ const config = require('../config')
 const { cmd, commands } = require('../command')
 
 //====your bot name=======
-let cap = '🧚ᴍᴀᴅᴇ ʙʏ ◦•●◉✿ 𝗧𝗵𝗲𝗻𝘂 𝗠𝗗 ✿◉●•◦'
+let cap = '©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ 🐱‍👤'
 
 // <========FETCH API URL========>
 let baseUrl;
