@@ -21,7 +21,7 @@ async (conn, mek, m, { from, q, reply }) => {
 
 ${joke.punchline} 😄
 
-> ❯❯ Powerd By Thenu..🚽`;
+> ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ `;
         
 
         return reply(jokeMessage);
