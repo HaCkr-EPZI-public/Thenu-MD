@@ -17,7 +17,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
- *❮❮❮ THENU - MD SONG DOWNLOADER ❯❯❯*
+ *❮❮❮ QUEEN D SONG DOWNLOADER ❯❯❯*
 
 > ➤ *𝗧𝗜𝗧𝗟𝗘* - ${data.title}
 
@@ -31,9 +31,7 @@ let desc = `
 
 >  downloding & sending plase waite...🚀💗
 
-> ꜱɪᴍᴘᴀʟ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ʙʏ THENU  ᴍᴅ ⚡
-
-> *THENU ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ⚟*
+> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ⚟*
 > ↺ |◁   II   ▷|   ♡
   `
  await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek})
@@ -46,7 +44,7 @@ let desc = `
  //send audio+ document message 
 
  await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
- await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"> Thenula Panapiti\n↺ |◁   II   ▷|   ♡"},{quoted:mek})
+ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"> Asᴍᴏᴅᴇᴜs Eᴘᴢɪ\n↺ |◁   II   ▷|   ♡"},{quoted:mek})
 
  
 
@@ -73,7 +71,7 @@ const search = await yts (q)
 const data = search.videos[0];
 const url = data.url
 
-let desc = `*❮❮❮ THENU - MD VIDEO DOWNLOADER ❯❯❯*
+let desc = `*❮❮❮ Queen D VIDEO DOWNLOADER ❯❯❯*
 
 > ➤ *𝗧𝗜𝗧𝗟𝗘* - ${data.title}
 
@@ -87,11 +85,8 @@ let desc = `*❮❮❮ THENU - MD VIDEO DOWNLOADER ❯❯❯*
 
 > 🎬 Your video downloading....
 
-> ꜱɪᴍᴘᴀʟ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ʙʏ THENU  ᴍᴅ ⚡
-
-> *THENU ᴍᴅ ᴡᴀᴛꜱ ᴀᴘᴘ ʙᴏᴛ ⚟*
  
-> © Made by Thenula Panapiti.
+> ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ
 > ↺ |◁   II   ▷|   ♡
   `
  await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek})
@@ -103,8 +98,8 @@ let desc = `*❮❮❮ THENU - MD VIDEO DOWNLOADER ❯❯❯*
     
  //send video+ document message 
 
- await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4",caption:">Thenula Panapiti💕"},{quoted:mek})
- await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"> Thenula Panapiti💕"},{quoted:mek})
+ await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4",caption:">Asᴍᴏᴅᴇᴜs Eᴘᴢɪ"},{quoted:mek})
+ await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"> Asᴍᴏᴅᴇᴜs Eᴘᴢɪ"},{quoted:mek})
 
  
 
