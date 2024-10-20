@@ -13,16 +13,16 @@ try{
    
     
     if (!isGroup) return reply('This command can only be used in a group❗.')
-        if (!isBotAdmins) return reply('PLEASE GIVE ADMIN TO *THENU - MD* ❗.')
-        if (!isAdmins) return reply('YOU ARE NOT THE OWNER.. ❌.')
+        if (!isBotAdmins) return reply('Uba Admin newei Pakaya nowi idapan* ❗.')
+        if (!isAdmins) return reply('Uba Epzi neweine Pakayo.. ❌.')
  
 
      
             await conn.groupSettingUpdate(m.chat, "announcement")
-           const mass = await conn.sendMessage(m.chat, { text: '🔒 GROUP IS CLOSED MY BOT OWNER' }, { quoted: mek });
+           const mass = await conn.sendMessage(m.chat, { text: '🔒 GROUP IS CLOSED EPZI ! Prashana Thiyenwada ?' }, { quoted: mek });
             return await conn.sendMessage(m.chat, { react: { text: '🔒', key: mass.key } });
 } catch(e) {
 console.log(e);
-reply('*PLEASE GIVE ADMIN TO BOT.. ❗❗*')    
+reply('*Admin Dipan pako botata.. ❗❗*')    
 } 
 })
