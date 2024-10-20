@@ -1,51 +1,69 @@
-const config = require('../config')
-const {cmd , commands} = require('../command')
-const os = require('os')
-const {runtime} = require('../lib/functions')
+const { readEnv } = require('../lib/database');
+const { cmd, commands } = require('../command');
 
-cmd({
-    pattern: "alive",
-    desc: "Check bot online or no.",
-    category: "main",
-    react: "👧🏻",
-    filename: __filename
-},
-async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
-try{
-
-let desc = `
-*Hi 🍄* ${pushname}
-
-┌────────────────
-│❖ *ᴜᴘᴛɪᴍᴇ :* _${runtime(process.uptime())}_
-│❖ *ʀᴀᴍ ᴜꜱᴀɢᴇ :*  _${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB_
-│❖ *ʜᴏꜱᴛ ɴᴀᴍᴇ :* _${os.hostname()}_
-│❖ *ᴏᴡɴᴇʀ :* _Asᴍᴏᴅᴇᴜs Eᴘᴢɪ_
-└────────────────
-
-*Oyage Cudu nona Innawa patiyo👸🏻*
-
-┌────────────────
-│ _*Epzi'ge Cudu Nona's Official Web Site*_
-│ Thama ehema ekk nh issarahata hadannm
-└────────────────
-┌────────────────
-│ _*Cudu Nonage Github Repo eka*_
-│ https://github.com/HaCkr-EPZI-public/CuduNona 
-└────────────────
-┌────────────────
-│ _*Apilage Group eka*_
-│ https://chat.whatsapp.com/C4uV5P7ZvrS85lUzCoZzx7
-└────────────────
-
-> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ  🧑🏻‍💻*
-`
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/tZzBS47/image.jpg`},caption: desc},{quoted: mek})
-
-}catch(e){
-console.log(e)
-reply(`${e}`)
-}
-})
-
-
+cmd(
+  {
+    pattern: 'alive',
+    desc: 'Check if the bot is online.',
+    category: 'main',
+    react: '💗',
+    filename: __filename,
+  },
+  async (
+    botInstance,
+    message,
+    argsUsed,
+    {
+      from,
+      quoted,
+      body,
+      isCmd,
+      command,
+      args,
+      q,
+      isGroup,
+      sender,
+      senderNumber,
+      botNumber2,
+      botNumber,
+      pushname,
+      isMe,
+      isOwner,
+      groupMetadata,
+      groupName,
+      participants,
+      groupAdmins,
+      isBotAdmins,
+      isAdmins,
+      reply,
+    }
+  ) => {
+    try {
+      const envData = await readEnv();
+      return (
+        await botInstance.sendMessage(
+          from,
+          {
+            audio: {
+              url: 'https://github.com/ravindu01manoj/Sew-Queen/raw/refs/heads/master/VoiceClip/alive.mp3',
+            },
+            mimetype: 'audio/mp4',
+            ptt: true,
+          },
+          { quoted: message }
+        ),
+        await botInstance.sendMessage(
+          from,
+          {
+            image: { url: envData.ALIVE_IMG },
+            caption: envData.ALIVE_MSG,
+          },
+          { quoted: message }
+        )
+      );
+    } catch (error) {
+      console.log(error);
+      reply('' + error);
+    }
+  }
+);
