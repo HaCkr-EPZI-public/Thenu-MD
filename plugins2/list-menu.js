@@ -43,10 +43,10 @@ cmd(
       let responseText = `
       *👋 Hello ${pushname}*
 
-      🤖 *Bot Name*: Thenux-MD✨
-      👨‍💻 *Creator*: 𝐓𝐡𝐞𝐧𝐮𝐱 𝐃𝐞𝐯✨
-      🔢 *Version*: 6.0.0 (Added hidden features)✨
-      📞 *Contact*: https://wa.me/94757096717 ✨
+      🤖 *Bot Name*: Queen D 💋
+      👨‍💻 *Creator*: Asᴍᴏᴅᴇᴜs Eᴘᴢɪ 🐱‍👤
+      🔢 *Version*: 1.2.0 (Added features)✨
+      📞 *Insta*: https://www.instagram.com/yuren.sasanka/
 
       *⭒⭐📥 DOWNLOADER ⭐⭒*
       ➤ .fb <url>
@@ -160,7 +160,7 @@ cmd(
         from,
         {
           audio: {
-            url: 'https://github.com/prabathLK/AUTO-VOICE-SENDER-PRABATH-MD-/raw/main/plugins/bgm/alan-faded.mp3',
+            url: 'https://github.com/VajiraTech/IZUMI-AUTO-VOICER/raw/main/hi.mp3',
           },
           mimetype: 'audio/mp4',
           ptt: true,
