@@ -14,34 +14,35 @@ try{
 let dec = `╭───────────────◎◎▷
 👋𝐇𝐄𝐋𝐋𝐎 ........................🔰
 
-> ᗯᗴᒪᑕOᗰ TO THENU-ᗰᗪ ᗰᑌᒪTIᗪᗴᐯIᑕᗴ ᗯᕼᗩTՏᗩᑭᑭ ᗷOT☢︎︎
+> Queen D Whatsapp Bot ~ By Epzi V 1.2 💋
 
-☺︎︎☻︎☺︎︎☻︎☺︎︎☻︎☺︎︎☻︎☺︎︎☻︎☺︎︎☻︎☺︎︎☻︎
-𝗟𝗢𝗢𝗞𝗜𝗡𝗚 𝗡𝗢𝗪 ☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎
+Is Here. 
 
-> THENU 𝕄𝔻 𝔹𝕆𝕋 𝕆𝕎𝔼ℕ𝔼ℝ 𝔸𝔹𝕆𝕌𝕋»
+> ©ᴄʀᴇᴀᴛᴇᴅ ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ 
 
-> ➪𝐌𝐘 𝐑𝐄𝐀𝐋 𝐍𝐀𝐌𝐄☞︎︎︎THENULA PANAPITI
+> GitHub: https://github.com/HaCkr-EPZI-public/CuduNona
 
-> ➪𝐈'𝐌 𝐅𝐑𝐎𝐌☞︎︎︎DELGODA
+> Insta: https://www.instagram.com/yuren.sasanka/
 
-> ➪𝐌𝐘 𝐀𝐆𝐄☞︎︎︎♕︎15 TO 16.♕︎
+> YouTube: https://www.youtube.com/@EPZi
+
+Queen D Kauda kiyla ahanna mn danneth nh kauda kiyla :)
 
 
 
-> 𝗠𝗬 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗡𝗨𝗠𝗕𝗘𝗥☟︎︎︎☟︎︎︎☟︎︎︎☟︎︎︎
+> Botge Codes oni nm Msg ekak dapan dennam
 
- https://wa.me/+94757096717?text=_♕︎THENU-MD♕︎_𝙸_𝚕𝚒𝚔𝚎_𝚖𝚎𝚎𝚝_𝚢𝚘𝚞👻👋_
+ https://wa.me/+94759554531?text=_Epzi_Pako_Queen_D_Ge_Codes_tika_Dipan👻👋_
 
-> 𝐨𝐰𝐞𝐧𝐞𝐫 : THENU-MD OᖴIᑕIᗩᒪ
+> Epzi Mage Mn Epzige <3 ~ Queen D
 ╰───────────────◎◎▷
 `
     await conn.sendMessage(from, {
-        audio: { url: 'https://github.com/prabathLK/AUTO-VOICE-SENDER-PRABATH-MD-/raw/refs/heads/main/plugins/bgm/AUD-20221018-WA0235.mp3 '},
+        audio: { url: 'https://github.com/prabathLK/AUTO-VOICE-SENDER-PRABATH-MD-/raw/refs/heads/main/plugins/bgm/AUD-20221018-WA0235.mp3'},
         mimetype: 'audio/mp4',
         ptt: true
     }, { quoted: mek });
-await conn.sendMessage(from,{image:{url: `https://i.ibb.co/hZp66L6/THENU-MD-LOGO.png`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://i.ibb.co/Pr4BfhZ/1500x1500.png`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
