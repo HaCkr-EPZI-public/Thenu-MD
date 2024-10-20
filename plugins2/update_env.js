@@ -13,7 +13,7 @@ async (conn, mek, m, { from, q, reply, isOwner }) => {
     if (!isOwner) return;
 
     if (!q) {
-        return reply("🙇‍♂️ *Please provide the environment variable and its new value.* \n\nExample: `.update ALIVE_MSG: Hello! I am Thenula Panapiti.`");
+        return reply("🙇‍♂️ *Please provide the environment variable and its new value.* \n\nExample: `.update ALIVE_MSG: Hello! I am Asmodeus Epzi.`");
     }
 
     // Find the position of the first colon or comma
