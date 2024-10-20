@@ -1,1 +1,78 @@
-function _0x1bd1(){const _0x5f4ba0=['874197YtuoBh','612VdKOSE','audio/mp4','18641fKwMNM','get\x20bot\x20convert\x20cmd.','pattern','365cjURyp','44bUCgHl','sendMessage','log','\x0a*👋\x20Hello\x20','*\x0a\x0a>\x20👨‍💻\x20​🇹​​🇭​​🇪​​🇳​​🇺​-​🇲​​🇩​\x20​🇲​​🇪​​🇳​​🇺​👨‍💻\x0a\x0a👨🏻‍💻⚟\x20*ɴᴀᴍᴇ\x20ʙᴏᴛ*\x20:\x20ᵀʰᵉⁿᵘ⁻ᴹᴰ💫\x0a👨🏻‍💻⚟\x20*ᴄʀᴇᴀᴛᴏʀ*\x20:\x20\x20𝓣𝓱𝓮𝓷𝓾𝓵𝓪\x20𝓟𝓪𝓷𝓪𝓹𝓲𝓽𝓲💫\x0a👨🏻‍💻⚟*ᴠᴇʀsɪᴏɴs*\x20:\x206.0.0\x20(ᴀᴅᴅᴇᴅ\x20ʜɪᴅᴅᴇɴ\x20ғᴇᴀᴜᴛᴜʀᴇs)💫\x0a👨🏻‍💻⚟\x20*ᴄᴏɴᴛᴀᴄᴛ*\x20:\x20https://wa.me/94757096717\x20💫\x0a\x0a╭───────────●●►\x0a│📜\x20CONVERT\x20COMMANDS\x0a│───────\x0a','5709380lfoWAU','category','PREFIX','9608qpKqbj','158928QUDBsA','https://github.com/prabathLK/AUTO-VOICE-SENDER-PRABATH-MD-/raw/refs/heads/main/plugins/bgm/AUD-20221018-WA0208.mp3','convert','122591sWeTlq','33444WNVqFS','\x0a╰───────────●●►\x0a\x20\x20','../lib/database','../command'];_0x1bd1=function(){return _0x5f4ba0;};return _0x1bd1();}function _0x427d(_0x2fc67f,_0x1a707c){const _0x1bd17e=_0x1bd1();return _0x427d=function(_0x427de4,_0x452545){_0x427de4=_0x427de4-0x100;let _0x41aa18=_0x1bd17e[_0x427de4];return _0x41aa18;},_0x427d(_0x2fc67f,_0x1a707c);}const _0x30a685=_0x427d;(function(_0x11a2bd,_0x3dcc1b){const _0x561cb8=_0x427d,_0x1c6da2=_0x11a2bd();while(!![]){try{const _0x555c46=-parseInt(_0x561cb8(0x111))/0x1+parseInt(_0x561cb8(0x105))/0x2*(-parseInt(_0x561cb8(0x112))/0x3)+-parseInt(_0x561cb8(0x10d))/0x4*(-parseInt(_0x561cb8(0x104))/0x5)+-parseInt(_0x561cb8(0x117))/0x6*(parseInt(_0x561cb8(0x101))/0x7)+parseInt(_0x561cb8(0x10e))/0x8+parseInt(_0x561cb8(0x116))/0x9+parseInt(_0x561cb8(0x10a))/0xa;if(_0x555c46===_0x3dcc1b)break;else _0x1c6da2['push'](_0x1c6da2['shift']());}catch(_0x21e50d){_0x1c6da2['push'](_0x1c6da2['shift']());}}}(_0x1bd1,0x36a42));const {readEnv}=require(_0x30a685(0x114)),{cmd,commands}=require(_0x30a685(0x115));cmd({'pattern':_0x30a685(0x110),'desc':_0x30a685(0x102),'category':_0x30a685(0x110),'react':'📩','filename':__filename},async(_0xbc8d30,_0x5aad1b,_0x3497b9,{from:_0xc65ab8,quoted:_0x2a156f,body:_0x2b877c,isCmd:_0xa31223,command:_0x24b18e,args:_0x2e3042,q:_0x4787d2,isGroup:_0xf662bb,sender:_0x435f96,senderNumber:_0x2c11ec,botNumber2:_0x51dd71,botNumber:_0x29a438,pushname:_0x1731e8,isMe:_0x6f4725,isOwner:_0x2dfe19,groupMetadata:_0x200f22,groupName:_0x5aeb75,participants:_0x1deef4,groupAdmins:_0x4e3c1e,isBotAdmins:_0x2bf5f9,isAdmins:_0x3d2518,reply:_0xc3ce45})=>{const _0x2bc075=_0x30a685;try{const _0x23f94e=await readEnv();let _0x3026f9={'convert':''};for(let _0x4765a3=0x0;_0x4765a3<commands['length'];_0x4765a3++){commands[_0x4765a3][_0x2bc075(0x103)]&&!commands[_0x4765a3]['dontAddCommandList']&&(_0x3026f9[commands[_0x4765a3][_0x2bc075(0x10b)]]+=''+_0x23f94e[_0x2bc075(0x10c)]+commands[_0x4765a3]['pattern']+'\x0a');}let _0x47c109=_0x2bc075(0x108)+_0x1731e8+_0x2bc075(0x109)+_0x3026f9[_0x2bc075(0x110)]+_0x2bc075(0x113);await _0xbc8d30[_0x2bc075(0x106)](_0xc65ab8,{'audio':{'url':_0x2bc075(0x10f)},'mimetype':_0x2bc075(0x100),'ptt':!![]},{'quoted':_0x5aad1b}),await _0xbc8d30[_0x2bc075(0x106)](_0xc65ab8,{'image':{'url':'https://i.ibb.co/XLMk1zK/CONVERT.png'},'caption':_0x47c109},{'quoted':_0x5aad1b});}catch(_0x5c7f04){console[_0x2bc075(0x107)](_0x5c7f04),_0xc3ce45(''+_0x5c7f04);}});
+const { readEnv } = require('../lib/database'),
+  { cmd, commands } = require('../command')
+cmd(
+  {
+    pattern: 'convert',
+    desc: 'get bot convert cmd.',
+    category: 'convert',
+    react: '\uD83D\uDCE9',
+    filename: __filename,
+  },
+  async (
+    _0xbc8d30,
+    _0x5aad1b,
+    _0x3497b9,
+    {
+      from: _0xc65ab8,
+      quoted: _0x2a156f,
+      body: _0x2b877c,
+      isCmd: _0xa31223,
+      command: _0x24b18e,
+      args: _0x2e3042,
+      q: _0x4787d2,
+      isGroup: _0xf662bb,
+      sender: _0x435f96,
+      senderNumber: _0x2c11ec,
+      botNumber2: _0x51dd71,
+      botNumber: _0x29a438,
+      pushname: _0x1731e8,
+      isMe: _0x6f4725,
+      isOwner: _0x2dfe19,
+      groupMetadata: _0x200f22,
+      groupName: _0x5aeb75,
+      participants: _0x1deef4,
+      groupAdmins: _0x4e3c1e,
+      isBotAdmins: _0x2bf5f9,
+      isAdmins: _0x3d2518,
+      reply: _0xc3ce45,
+    }
+  ) => {
+    try {
+      const _0x23f94e = await readEnv()
+      for (let _0x4765a3 = 0; _0x4765a3 < commands.length; _0x4765a3++) {
+        commands[_0x4765a3].pattern &&
+          !commands[_0x4765a3].dontAddCommandList &&
+          (_0x3026f9[commands[_0x4765a3].category] +=
+            '' + _0x23f94e.PREFIX + commands[_0x4765a3].pattern + '\n')
+      }
+      let _0x47c109 =
+        '\n*\uD83D\uDC4B Hello ' +
+        _0x1731e8 +
+        '*\n\n> \uD83D\uDC68‍\uD83D\uDCBB \u200B\uD83C\uDDF9\u200B\u200B\uD83C\uDDED\u200B\u200B\uD83C\uDDEA\u200B\u200B\uD83C\uDDF3\u200B\u200B\uD83C\uDDFA\u200B-\u200B\uD83C\uDDF2\u200B\u200B\uD83C\uDDE9\u200B \u200B\uD83C\uDDF2\u200B\u200B\uD83C\uDDEA\u200B\u200B\uD83C\uDDF3\u200B\u200B\uD83C\uDDFA\u200B\uD83D\uDC68‍\uD83D\uDCBB\n\n\uD83D\uDC68\uD83C\uDFFB‍\uD83D\uDCBB\u269F *ɴᴀᴍᴇ ʙᴏᴛ* : Epzige Cudu Nona🔮\n👨‍💻✨ *ᴄʀᴇᴀᴛᴏʀ* : ʙʏ Asᴍᴏᴅᴇᴜs Eᴘᴢɪ 🐱‍👤\n👨‍💻✨*ᴠᴇʀsɪᴏɴs* : 6.0.0 (ᴀᴅᴅᴇᴅ ʜɪᴅᴅᴇɴ ғᴇᴀᴜᴛᴜʀᴇs)\uD83D\uDCAB\n\uD83D\uDC68\uD83C\uDFFB‍\uD83D\uDCBB\u269F *ᴄᴏɴᴛᴀᴄᴛ* : https://wa.me/94759554531 \uD83D\uDCAB\n\n\u256D\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25CF\u25CF\u25BA\n\u2502\uD83D\uDCDC CONVERT COMMANDS\n\u2502\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n' +
+        _0x3026f9.convert +
+        '\n\u2570\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u25CF\u25CF\u25BA\n  '
+      await _0xbc8d30.sendMessage(
+        _0xc65ab8,
+        {
+          audio: {
+            url: 'https://github.com/prabathLK/AUTO-VOICE-SENDER-PRABATH-MD-/raw/refs/heads/main/plugins/bgm/AUD-20221018-WA0208.mp3',
+          },
+          mimetype: 'audio/mp4',
+          ptt: true,
+        },
+        { quoted: _0x5aad1b }
+      )
+      await _0xbc8d30.sendMessage(
+        _0xc65ab8,
+        {
+          image: { url: 'https://i.ibb.co/Pr4BfhZ/1500x1500.png' },
+          caption: _0x47c109,
+        },
+        { quoted: _0x5aad1b }
+      )
+    } catch (_0x5c7f04) {
+      console.log(_0x5c7f04)
+      _0xc3ce45('' + _0x5c7f04)
+    }
+  }
+)
